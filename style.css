@@ -1,0 +1,105 @@
+body{
+  background-color: lightgray;
+}
+#clock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#title {
+  font-family: 'McLaren';
+  font-size: 3rem;
+  padding-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+#break-label, #session-label {
+  font-family: 'McLaren';
+  font-size: 1.5rem;
+  margin: 1rem 1.5rem 0;
+  text-align: center;
+}
+#break-length, #session-length {
+  font-family: 'McLaren';
+  font-size: 2rem;
+  margin: 0 1.5rem ;
+  text-align: center;
+}
+#setups {
+  background-color: lightgray
+}
+.inline-block {
+  display: inline-block
+}
+#session-setups, #break-setups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#break-increment, #session-increment {
+  margin-top: 1rem
+}
+#timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#timer-display {
+  border: solid 5px gray;
+  padding: 0.75rem;
+  border-radius: 40px;
+  margin: 1.5rem auto 0 auto;
+  width: 12rem;
+}
+#timer-label, #time-left {
+  font-family: 'McLaren';
+  font-size: 2.5rem;
+}
+#timer-label, #time-left {
+  text-align: center;
+}
+#timer-buttons {
+  margin: 0.75rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#author {
+  width: 100%;
+  text-align: center;
+  fonst-size: 0.5rem;
+  color: black;
+  margin-top: 2rem;
+}
+#start_stop, #reset {
+  background-color: lightgray;
+  border: none;  
+}
+#pause {
+  margin-left: -21px;
+  margin-right: -5px;
+}
+button {
+  padding: 0
+}
+.material-icons.md-36 { font-size: 34px; }
+.material-icons.md-40 { font-size: 42px; }
+.arrow {
+  height: 15px;
+  width: 15px;
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  margin: 5px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
